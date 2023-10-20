@@ -1,25 +1,64 @@
-import { HTML } from "./data/links";
+import Tabs from "@mui/joy/Tabs";
+import TabList from "@mui/joy/TabList";
+import Tab from "@mui/joy/Tab";
+import TabPanel from "@mui/joy/TabPanel";
+
+import HtmlSection from "./components/HtmlSection";
+import CssSection from "./components/CssSection";
 
 function App() {
-  return (
-    <main>
-      <div className="flex flex-col">
-        <h1 className="font-black text-xl">HTML</h1>
-        {HTML.map((bookmark) => (
-          <div className="max-w-md bg-gray-400 my-2 text-center">
-            <div>
-              <a href={bookmark.url}>{bookmark.topic}</a>
-            </div>
-            <div>
-              <a className="text-sm italic" href={bookmark.homepageUrl}>
-                by {bookmark.homepage}
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
-    </main>
-  );
+    return (
+        <>
+            <nav className="flex justify-center p-10 py-24">
+                <h1 className="text-white text-5xl font-bold text-center">
+                    My webdev bookmarks/topics collection
+                </h1>
+            </nav>
+            <main className="container mx-auto">
+                <Tabs aria-label="Basic tabs" defaultValue={0} variant="plain">
+                    <TabList
+                        sx={{
+                            overflow: "auto",
+                            scrollSnapType: "x mandatory",
+                            "&::-webkit-scrollbar": { display: "none" },
+                            fontSize: "1.3rem"
+                        }}
+                    >
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>HTML</p>
+                        </Tab>
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>CSS</p>
+                        </Tab>
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>JavaScript</p>
+                        </Tab>
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>Tools</p>
+                        </Tab>
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>Colors</p>
+                        </Tab>
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>Games</p>
+                        </Tab>
+                        <Tab sx={{ flex: "none", scrollSnapAlign: "start" }}>
+                            <p>3D-Engines</p>
+                        </Tab>
+                    </TabList>
+                    <TabPanel value={0}>
+                        <HtmlSection />
+                    </TabPanel>
+                    <TabPanel value={1}>
+                        <CssSection />
+                    </TabPanel>
+                    <TabPanel value={2}>
+                        <b>Third</b> tab panel
+                    </TabPanel>
+                </Tabs>
+            </main>
+        </>
+    );
 }
 
 export default App;
