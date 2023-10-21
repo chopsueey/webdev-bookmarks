@@ -5,9 +5,9 @@ import "./style/index.css";
 import { CssVarsProvider } from "@mui/joy/styles";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-    <React.StrictMode>
-            <CssVarsProvider defaultMode="dark">
-                <App />
-            </CssVarsProvider>
-    </React.StrictMode>
+  <React.StrictMode>
+    <CssVarsProvider defaultMode="dark">
+      <App />
+    </CssVarsProvider>
+  </React.StrictMode>,
 );
