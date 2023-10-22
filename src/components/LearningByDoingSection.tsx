@@ -1,13 +1,13 @@
-import { CSS } from "../data/css-links";
+import { Games } from "../data/games-and-platforms-links";
 
-function CssSection() {
+function LearningByDoingSection() {
   return (
     <section
       id="htmlSection"
       className="flex flex-col items-center overflow-hidden text-center text-white sm:items-start"
     >
       <div className="flex w-fit flex-wrap justify-center">
-        {CSS.map((bookmark) => (
+        {Games.map((bookmark) => (
           <div className="card p-2">
             <a href={bookmark.url} target="_blank">
               <div className="overflow-hidden rounded-xl border border-white/25 p-3 text-center shadow-lg duration-75 hover:scale-105">
@@ -24,4 +24,4 @@ function CssSection() {
   );
 }
 
-export default CssSection;
+export default LearningByDoingSection;
