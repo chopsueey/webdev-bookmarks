@@ -5,3 +5,7 @@
 :root {
     background-color: #0b0d0e;
 }
+
+.card:has(div:hover) {
+    background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
+}

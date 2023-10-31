@@ -1,96 +1,110 @@
 import { Bookmark } from "./definitions";
 
-const CSS: Bookmark[] = [
+const Tools: Bookmark[] = [
   {
-    topic: "History of CSS",
-    url: "https://www.w3.org/Style/CSS20/history.html",
-    by: "w3.org",
+    topic: "AI: chatGPT",
+    url: "https://chat.openai.com/auth/login",
+    by: "openai.com",
   },
   {
-    topic: "Video: The World & CSS",
-    url: "https://www.youtube.com/watch?v=LeC26IO1WV8",
-    by: "WeAreDevelopers",
+    topic: "AI: Google Bard",
+    url: "https://bard.google.com",
+    by: "google.com",
   },
   {
-    topic: "Learn CSS",
-    url: "https://web.dev/learn/css/welcome",
-    by: "web.dev"
+    topic: "DeepL",
+    url: "https://www.deepl.com/translator",
+    by: "deepl.com"
   },
   {
-    topic: "Layout",
-    url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction",
-    by: "mdn.com"
+    topic: "Figma",
+    url: "https://www.figma.com/",
+    by: "figma.com"
   },
   {
-    topic: "Layout",
-    url: "https://web.dev/learn/css/layout/",
-    by: "web.dev",
+    topic: "Wireframe.cc",
+    url: "https://wireframe.cc/",
+    by: "Wireframe.cc"
   },
   {
-    topic: "Normal flow",
-    url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow",
-    by: "mdn.com"
+    topic: "Excalidraw",
+    url: "https://excalidraw.com/",
+    by: "excalidraw.com",
   },
   {
-    topic: "Values and units",
-    url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units",
-    by: "mdn.com",
+    topic: "Typeform",
+    url: "https://www.typeform.com/",
+    by: "typeform.com"
   },
   {
-    topic: "em and rem",
-    url: "https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/",
-    by: "geeksforgeeks.org",
+    topic: "Postman",
+    url: "https://www.postman.com/",
+    by: "postman.com",
   },
   {
-    topic: "clamp()",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp",
-    by: "mdn.com",
+    topic: "RapidAPI",
+    url: "https://rapidapi.com/hub",
+    by: "rapidapi.com"
   },
   {
-    topic: "At-rules",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule",
-    by: "mdn.com",
+    topic: "Mentimeter",
+    url: "https://www.mentimeter.com/",
+    by: "mentimeter.com"
   },
   {
-    topic: "Media queries",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
-    by: "mdn.com",
+    topic: "Miro",
+    url: "https://miro.com/",
+    by: "miro.com",
   },
   {
-    topic: "Gradient",
-    url: "https://cssgradient.io/",
-    by: "cssgradient.io",
+    topic: "Mural",
+    url: "https://www.mural.co/",
+    by: "mural.co",
   },
   {
-    topic: "CSS Reset",
-    url: "https://meyerweb.com/eric/tools/css/reset/index.html",
-    by: "meyerweb.com",
+    topic: "Padlet",
+    url: "https://padlet.com/",
+    by: "padlet.com",
   },
   {
-    topic: "A modern CSS reset",
-    url: "https://andy-bell.co.uk/a-modern-css-reset/",
-    by: "https://andy-bell.co.uk/",
+    topic: "Gitkraken",
+    url: "https://www.gitkraken.com/",
+    by: "gitkraken.com",
   },
   {
-    topic: "normalize.css",
-    url: "https://github.com/necolas/normalize.css/",
-    by: "https://github.com/necolas",
-  },
-
-  {
-    topic: "A Complete Guide to Flexbox",
-    url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
-    by: "css-tricks.com",
+    topic: "bitmoji",
+    url: "https://www.bitmoji.com/",
+    by: "bitmoji.com",
   },
   {
-    topic: "A Complete Guide to CSS Grid",
-    url: "https://css-tricks.com/snippets/css/complete-guide-grid/",
-    by: "css-tricks.com"
+    topic: "Avatar maker",
+    url: "https://www.animaker.com/avatar-maker",
+    by: "animaker.com",
   },
   {
-    topic: "Grid",
-    url: "https://tympanus.net/codrops/css_reference/grid/",
-    by: "https://tympanus.net/codrops/"
+    topic: "Kapwing",
+    url: "https://www.kapwing.com/",
+    by: "kapwing.com",
+  },
+  {
+    topic: "Freepik",
+    url: "https://www.freepik.com/",
+    by: "freepik.com",
+  },
+  {
+    topic: "Bootstrap Studio",
+    url: "https://bootstrapstudio.io/",
+    by: "bootstrapstudio.io"
+  },
+  {
+    topic: "Blackfire",
+    url: "https://www.blackfire.io/",
+    by: "blackfire.io",
+  },
+  {
+    topic: "Imgur",
+    url: "https://imgur.com/",
+    by: "imgur.com"
   },
   {
     topic: "Grid: Fr unit",
@@ -199,20 +213,20 @@ const CSS: Bookmark[] = [
     by: "https://codepen.io/seanfree",
   },
   {
-    topic: "Musical Particles IV",
-    url: "https://codepen.io/seanfree/pen/BapdxVE",
-    by: "https://codepen.io/seanfree",
+    topic: "Favicon creator",
+    url: "https://www.favicon.cc/",
+    by: "favicon.cc",
   },
   {
-    topic: "CSS glowing icons",
-    url: "https://codepen.io/Krishnaa_Gupta/pen/MWoRqmr",
-    by: "https://codepen.io/Krishnaa_Gupta",
+    topic: "Internet Archive",
+    url: "https://archive.org/",
+    by: "archive.org",
   },
   {
-    topic: "Candy Color Button Animation",
-    url: "https://codepen.io/yuhomyan/pen/OJMejWJ",
-    by: "https://codepen.io/yuhomyan"
+    topic: "Pomofocus",
+    url: "https://pomofocus.io/",
+    by: "pomofocus.io"
   }
 ];
 
-export { CSS };
+export { Tools };

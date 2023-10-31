@@ -1,14 +1,15 @@
-import { CSS } from "../data/css-links";
+import { Tools } from "../data/tools-links";
+import "../style/index.css";
 import TopicCard from "./TopicCard";
 
-function CssSection() {
+function ToolsSection() {
   return (
     <section
-      id="cssSection"
+      id="toolsSection"
       className="flex flex-col items-center overflow-hidden text-center text-white sm:items-start"
     >
       <div className="flex w-fit flex-wrap justify-center">
-        {CSS.map((bookmark) => (
+        {Tools.map((bookmark) => (
           <TopicCard {...bookmark} />
         ))}
       </div>
@@ -16,4 +17,4 @@ function CssSection() {
   );
 }
 
-export default CssSection;
+export default ToolsSection;

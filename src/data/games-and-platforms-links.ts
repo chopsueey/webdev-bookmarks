@@ -1,16 +1,6 @@
-interface Collection {
-  topic: string;
-  url: string;
-  by: string;
-}
+import { Bookmark } from "./definitions";
 
-// {
-//     topic: "",
-//     url: "",
-//     by: "",
-// },
-
-const Games: Collection[] = [
+const Games: Bookmark[] = [
   {
     topic: "Codewars",
     url: "https://www.codewars.com/",

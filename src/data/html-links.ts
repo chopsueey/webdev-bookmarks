@@ -1,16 +1,6 @@
-interface Collection {
-  topic: string;
-  url: string;
-  by: string;
-}
+import { Bookmark } from "./definitions";
 
-// {
-//     topic: "",U
-//     url: "",
-//     by: "",
-// },
-
-const HTML: Collection[] = [
+const HTML: Bookmark[] = [
   {
     topic: "Web Standards",
     url: "https://www.w3.org/",

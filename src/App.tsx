@@ -6,6 +6,7 @@ import TabPanel from "@mui/joy/TabPanel";
 import HtmlSection from "./components/HtmlSection";
 import CssSection from "./components/CssSection";
 import LearningByDoingSection from "./components/LearningByDoingSection";
+import ToolsSection from "./components/ToolsSection";
 
 function App() {
   // maybe creating a tab with resources that cover
@@ -27,11 +28,13 @@ function App() {
               scrollSnapType: "x mandatory",
               "::-webkit-scrollbar": { height: "10px" },
               "::-webkit-scrollbar-track": {
-                backgroundColor: "neutral.500",
+                backgroundColor: "neutral.700",
                 borderRadius: "10px",
               },
               "::-webkit-scrollbar-thumb": {
-                backgroundColor: "common.white",
+                // backgroundColor: "common.white",
+                background:
+                  "linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%)",
                 borderRadius: "10px",
               },
               fontSize: "1.3rem",
@@ -39,7 +42,7 @@ function App() {
               borderRadius: "10px",
               [`& .${tabClasses.root}[aria-selected="true"]`]: {
                 color: "common.white",
-                backgroundColor: "neutral.500"
+                backgroundColor: "neutral.500",
               },
             }}
           >
@@ -126,7 +129,7 @@ function App() {
             <b>Third</b> tab panel
           </TabPanel>
           <TabPanel value={5}>
-            <b>Third</b> tab panel
+            <ToolsSection />
           </TabPanel>
           <TabPanel value={6}>
             <b>Third</b> tab panel
