@@ -1,6 +1,6 @@
 import { Bookmark } from "./definitions";
 
-const Games: Bookmark[] = [
+const Learning: Bookmark[] = [
   {
     topic: "Codewars",
     url: "https://www.codewars.com/",
@@ -35,6 +35,21 @@ const Games: Bookmark[] = [
     topic: "Frontend Projects",
     url: "https://www.frontendpractice.com/",
     by: "frontendpractice.com",
+  },
+  {
+    topic: "Codewell",
+    url: "https://www.codewell.cc/",
+    by: "codewell.cc",
+  },
+  {
+    topic: "Backend playground",
+    url: "https://sampleapis.com/",
+    by: "sampleapis.com",
+  },
+  {
+    topic: "SQL playground",
+    url: "https://www.db-fiddle.com/",
+    by: "db-fiddle.com",
   },
   {
     topic: "Mimo",
@@ -78,4 +93,4 @@ const Games: Bookmark[] = [
   },
 ];
 
-export { Games };
+export { Learning };

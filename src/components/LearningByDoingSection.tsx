@@ -1,4 +1,4 @@
-import { Games } from "../data/games-and-platforms-links";
+import { Learning } from "../data/learning-by-doing-links";
 import TopicCard from "./TopicCard";
 
 function LearningByDoingSection() {
@@ -8,7 +8,7 @@ function LearningByDoingSection() {
       className="flex flex-col items-center overflow-hidden text-center text-white sm:items-start"
     >
       <div className="flex w-fit flex-wrap justify-center">
-        {Games.map((bookmark) => (
+        {Learning.map((bookmark) => (
           <TopicCard {...bookmark} />
         ))}
       </div>

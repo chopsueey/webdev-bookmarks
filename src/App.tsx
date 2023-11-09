@@ -15,9 +15,9 @@ function App() {
   // web.dev, digital ocean
   return (
     <>
-      <nav className="flex justify-center p-10 py-24">
+      <nav className="flex justify-center p-10 md:py-24">
         <h1 className="break-all text-center text-5xl font-bold text-white">
-          My webdev bookmarks/topics collection
+          My webdev bookmarks collection
         </h1>
       </nav>
       <main className="container mx-auto">
@@ -32,7 +32,6 @@ function App() {
                 borderRadius: "10px",
               },
               "::-webkit-scrollbar-thumb": {
-                // backgroundColor: "common.white",
                 background:
                   "linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%)",
                 borderRadius: "10px",
@@ -74,32 +73,34 @@ function App() {
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
-              <p>JavaScript</p>
-            </Tab>
-            <Tab
-              disableIndicator
-              sx={{ flex: "none", scrollSnapAlign: "start" }}
-            >
-              <p>Tools</p>
-            </Tab>
-            <Tab
-              disableIndicator
-              sx={{ flex: "none", scrollSnapAlign: "start" }}
-            >
               <p>Colors & Fonts</p>
             </Tab>
             <Tab
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
-              <p>Learning by doing</p>
+              <p>JavaScript</p>
             </Tab>
             <Tab
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
-              <p>3D-Engines</p>
+              <p>Backend</p>
             </Tab>
+            <Tab
+              disableIndicator
+              sx={{ flex: "none", scrollSnapAlign: "start" }}
+            >
+              <p>Tools and Collab</p>
+            </Tab>
+
+            <Tab
+              disableIndicator
+              sx={{ flex: "none", scrollSnapAlign: "start" }}
+            >
+              <p>Learning by doing</p>
+            </Tab>
+
             <Tab
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
@@ -111,6 +112,25 @@ function App() {
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
               <p>Tutorials & Creators</p>
+            </Tab>
+
+            <Tab
+              disableIndicator
+              sx={{ flex: "none", scrollSnapAlign: "start" }}
+            >
+              <p>Common Libraries</p>
+            </Tab>
+            <Tab
+              disableIndicator
+              sx={{ flex: "none", scrollSnapAlign: "start" }}
+            >
+              <p>Integrations</p>
+            </Tab>
+            <Tab
+              disableIndicator
+              sx={{ flex: "none", scrollSnapAlign: "start" }}
+            >
+              <p>3D-Engines</p>
             </Tab>
           </TabList>
           <TabPanel value={0}>
@@ -126,25 +146,34 @@ function App() {
             <CssSection />
           </TabPanel>
           <TabPanel value={4}>
-            <b>Third</b> tab panel
+            <b>Colors and Fonts</b>
           </TabPanel>
           <TabPanel value={5}>
-            <ToolsSection />
+            <b>Javascript</b>
           </TabPanel>
           <TabPanel value={6}>
-            <b>Third</b> tab panel
+            <b>Backend</b>
           </TabPanel>
           <TabPanel value={7}>
-            <LearningByDoingSection />
+            <ToolsSection />
           </TabPanel>
           <TabPanel value={8}>
-            <b>Third</b> tab panel
+            <LearningByDoingSection />
           </TabPanel>
           <TabPanel value={9}>
-            <b>Third</b> tab panel
+            <b>Inspiration</b>
           </TabPanel>
           <TabPanel value={10}>
-            <b>Third</b> tab panel
+            <b>Tutorials and Creators</b>
+          </TabPanel>
+          <TabPanel value={11}>
+            <b>Common Libraries</b>
+          </TabPanel>
+          <TabPanel value={12}>
+            <b>Integrations</b>
+          </TabPanel>
+          <TabPanel value={13}>
+            <b>3D-Engines</b>
           </TabPanel>
         </Tabs>
       </main>

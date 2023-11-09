@@ -12,19 +12,69 @@ const Tools: Bookmark[] = [
     by: "google.com",
   },
   {
+    topic: "DeepAI (Chat and Images)",
+    url: "https://deepai.org/",
+    by: "deepai.org",
+  },
+  {
+    topic: "phind",
+    url: "https://www.phind.com/",
+    by: "phind.com",
+  },
+  {
+    topic: "Vercel AI Playground",
+    url: "https://sdk.vercel.ai/",
+    by: "vercel.com",
+  },
+  {
+    topic: "Generative React Components (Alpha)",
+    url: "https://v0.dev/",
+    by: "v0.dev",
+  },
+  {
+    topic: "Image Creator by Microsoft Bing",
+    url: "https://www.bing.com/images/create",
+    by: "bing.com",
+  },
+  {
+    topic: "DALL-E (not free)",
+    url: "https://openai.com/dall-e-2",
+    by: "openai.com",
+  },
+  {
+    topic: "Developer Browser",
+    url: "https://polypane.app/",
+    by: "polypane.app",
+  },
+  {
     topic: "DeepL",
     url: "https://www.deepl.com/translator",
-    by: "deepl.com"
+    by: "deepl.com",
+  },
+  {
+    topic: "Online IDE: Stackblitz",
+    url: "https://stackblitz.com/",
+    by: "stackblitz.com",
+  },
+  {
+    topic: "Online IDE: Codesandbox",
+    url: "https://codesandbox.io/",
+    by: "codesandbox.io",
+  },
+  {
+    topic: "CDN for NPM: UNPKG",
+    url: "https://unpkg.com/",
+    by: "unpkg.com",
   },
   {
     topic: "Figma",
     url: "https://www.figma.com/",
-    by: "figma.com"
+    by: "figma.com",
   },
   {
     topic: "Wireframe.cc",
     url: "https://wireframe.cc/",
-    by: "Wireframe.cc"
+    by: "Wireframe.cc",
   },
   {
     topic: "Excalidraw",
@@ -32,9 +82,29 @@ const Tools: Bookmark[] = [
     by: "excalidraw.com",
   },
   {
+    topic: "Builder.io Platform",
+    url: "https://www.builder.io/",
+    by: "builder.io",
+  },
+  {
+    topic: "Freeformatter",
+    url: "https://www.freeformatter.com/",
+    by: "www.freeformatter.com",
+  },
+  {
+    topic: "caniuse",
+    url: "https://caniuse.com/",
+    by: "caniuse.com",
+  },
+  {
+    topic: "Formspree",
+    url: "https://formspree.io/",
+    by: "formspree.io",
+  },
+  {
     topic: "Typeform",
     url: "https://www.typeform.com/",
-    by: "typeform.com"
+    by: "typeform.com",
   },
   {
     topic: "Postman",
@@ -44,12 +114,37 @@ const Tools: Bookmark[] = [
   {
     topic: "RapidAPI",
     url: "https://rapidapi.com/hub",
-    by: "rapidapi.com"
+    by: "rapidapi.com",
+  },
+  {
+    topic: "Algolia",
+    url: "https://www.algolia.com/",
+    by: "algolia.com",
+  },
+  {
+    topic: "Gamma",
+    url: "https://gamma.app/",
+    by: "gamma.app",
+  },
+  {
+    topic: "Podia",
+    url: "https://www.podia.com/",
+    by: "podia.com",
   },
   {
     topic: "Mentimeter",
     url: "https://www.mentimeter.com/",
-    by: "mentimeter.com"
+    by: "mentimeter.com",
+  },
+  {
+    topic: "Freehand",
+    url: "https://www.freehandapp.com/",
+    by: "invisionapp.com",
+  },
+  {
+    topic: "Jira",
+    url: "https://www.atlassian.com/de/software/jira",
+    by: "atlassian.com",
   },
   {
     topic: "Miro",
@@ -72,7 +167,22 @@ const Tools: Bookmark[] = [
     by: "gitkraken.com",
   },
   {
-    topic: "bitmoji",
+    topic: "LottieFiles",
+    url: "https://lottiefiles.com/",
+    by: "lottiefiles.com",
+  },
+  {
+    topic: "Free Illustrations",
+    url: "https://illlustrations.co/",
+    by: "illlustrations.co"
+  },
+  {
+    topic: "Flaticon",
+    url: "https://www.flaticon.com/",
+    by: "flaticon.com",
+  },
+  {
+    topic: "Bitmoji",
     url: "https://www.bitmoji.com/",
     by: "bitmoji.com",
   },
@@ -94,7 +204,12 @@ const Tools: Bookmark[] = [
   {
     topic: "Bootstrap Studio",
     url: "https://bootstrapstudio.io/",
-    by: "bootstrapstudio.io"
+    by: "bootstrapstudio.io",
+  },
+  {
+    topic: "Free Bootstrap Templates",
+    url: "https://themefisher.com/bootstrap-templates",
+    by: "themefisher.com",
   },
   {
     topic: "Blackfire",
@@ -104,113 +219,27 @@ const Tools: Bookmark[] = [
   {
     topic: "Imgur",
     url: "https://imgur.com/",
-    by: "imgur.com"
+    by: "imgur.com",
   },
   {
-    topic: "Grid: Fr unit",
-    url: "https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit",
-    by: "https://www.digitalocean.com/"
+    topic: "Piskel",
+    url: "https://www.piskelapp.com/",
+    by: "piskelapp.com",
   },
   {
-    topic: "Box-sizing",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing",
-    by: "mdn.com",
+    topic: "Custom metrics for your website",
+    url: "https://web.dev/articles/custom-metrics?utm_source=devtools#server-timing-api",
+    by: "web.dev",
   },
   {
-    topic: "Box-shadow examples",
-    url: "https://getcssscan.com/css-box-shadow-examples",
-    by: "getcssscan.com",
-  },
-
-  {
-    topic: "Selectors",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors",
-    by: "mdn",
+    topic: "TechEmpower",
+    url: "https://www.techempower.com/benchmarks/#section=data-r21",
+    by: "techempower.com",
   },
   {
-    topic: "Attribute selector",
-    url: "https://www.w3schools.com/css/css_attribute_selectors.asp",
-    by: "w3schools.com",
-  },
-  {
-    topic: "Position",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/position",
-    by: "mdn.com",
-  },
-  {
-    topic: "Pseudo-classes and pseudo-elements",
-    url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements",
-    by: "mdn.com",
-  },
-  {
-    topic: "Animatable CSS properties",
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties",
-    by: "mdn"
-  },
-  {
-    topic: "High-performance animations",
-    url: "https://web.dev/articles/animations-guide",
-    by: "web.dev"
-  },
-  {
-    topic: "Transition",
-    url: "https://web.dev/learn/css/transitions/",
-    by: "web.dev"
-  },
-  {
-    topic: "Transform demos",
-    url: "https://www.w3schools.com/cssref/playdemo.php?filename=playcss_transform&preval=none",
-    by: "w3schools.com"
-  },
-  {
-    topic: "Animating with Clip-Path",
-    url: "https://css-tricks.com/animating-with-clip-path/",
-    by: "css-tricks.com"
-  },
-  {
-    topic: "Animate box-shadow",
-    url: "https://tobiasahlin.com/blog/how-to-animate-box-shadow/",
-    by: "https://tobiasahlin.com/"
-  },
-  {
-    topic: "Animations library",
-    url: "https://animista.net/",
-    by: "animista.net"
-  },
-  {
-    topic: "Cubic-bezier previews",
-    url: "https://cubic-bezier.com/",
-    by: "cubic-bezier.com"
-  },
-  {
-    topic: "Easing functions Cheat Sheet",
-    url: "https://easings.net/",
-    by: "easings.net"
-  },
-  {
-    topic: "A Primer on Bézier Curves",
-    url: "https://pomax.github.io/bezierinfo/",
-    by: "https://github.com/Pomax"
-  },
-  {
-    topic: "SVG",
-    url: "https://developer.mozilla.org/en-US/docs/Web/SVG",
-    by: "mdn.com"
-  },
-  {
-    topic: "Sass Basics",
-    url: "https://sass-lang.com/guide/",
-    by: "sass-lang.com"
-  },
-  {
-    topic: "SCSS Compiler",
-    url: "https://beautifytools.com/scss-compiler.php",
-    by: "beautifytools.com",
-  },
-  {
-    topic: "Split-screen Slideshow",
-    url: "https://codepen.io/seanfree/pen/LxPBZy",
-    by: "https://codepen.io/seanfree",
+    topic: "Developing enhancements",
+    url: "https://nx.dev/",
+    by: "nx.dev",
   },
   {
     topic: "Favicon creator",
@@ -225,8 +254,8 @@ const Tools: Bookmark[] = [
   {
     topic: "Pomofocus",
     url: "https://pomofocus.io/",
-    by: "pomofocus.io"
-  }
+    by: "pomofocus.io",
+  },
 ];
 
 export { Tools };
