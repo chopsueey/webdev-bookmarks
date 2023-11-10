@@ -12,6 +12,11 @@ const Javascript: Bookmark[] = [
     by: "Marijn Haverbeke",
   },
   {
+    topic: "The Modern JavaScript Tutorial",
+    url: "https://javascript.info/",
+    by: "javascript.info"
+  },
+  {
     topic: "Fundamentals Tutorials",
     url: "https://masteringjs.io/fundamentals",
     by: "masteringjs.io",
@@ -122,6 +127,11 @@ const Javascript: Bookmark[] = [
     by: "rgxdb.com",
   },
   {
+    topic: "DOM tree",
+    url: "https://javascript.info/dom-nodes",
+    by: "javascript.info"
+  },
+  {
     topic: "JavaScript DOM Crash Course",
     url: "https://www.youtube.com/watch?v=0ik6X4DJKCc",
     by: "Traversy Media"
@@ -218,11 +228,6 @@ const Javascript: Bookmark[] = [
     topic: "JavaScript event keycode",
     url: "https://www.toptal.com/developers/keycode",
     by: "toptal.com"
-  },
-  {
-    topic: "GSAP - Animation library",
-    url: "https://gsap.com/",
-    by: "gsap.com",
   },
   {
     topic: "Audio() constructor",

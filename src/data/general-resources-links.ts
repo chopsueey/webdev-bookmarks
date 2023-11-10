@@ -7,9 +7,9 @@ const GeneralResources: Bookmark[] = [
     by: "stackoverflow.com",
   },
   {
-    topic: "Linux command line for beginners",
-    url: "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview",
-    by: "ubuntu.com",
+    topic: "Games & Tools",
+    url: "https://itch.io/",
+    by: "itch.io",
   },
   {
     topic: "Bash Cheat Sheet",

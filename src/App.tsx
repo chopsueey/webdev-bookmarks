@@ -11,6 +11,8 @@ import ComputerBasicsSection from "./components/ComputerBasicsSection";
 import InspirationSection from "./components/InspirationSection";
 import GeneralResourcesSection from "./components/GeneralResourcesSection";
 import JavascriptSection from "./components/JavascriptSection";
+import FrameworksAndLibrariesSection from "./components/Frameworks-and-Libraries";
+import UtilityPackagesSection from "./components/UtilityPackagesSection";
 
 function App() {
   // maybe creating a tab with resources that cover
@@ -121,14 +123,14 @@ function App() {
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
-              <p>Popular Frameworks</p>
+              <p>Frameworks & Libraries</p>
             </Tab>
 
             <Tab
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
-              <p>Common Libraries</p>
+              <p>Utility Packages</p>
             </Tab>
             <Tab
               disableIndicator
@@ -140,7 +142,7 @@ function App() {
               disableIndicator
               sx={{ flex: "none", scrollSnapAlign: "start" }}
             >
-              <p>3D-Engines</p>
+              <p>Babylon.js</p>
             </Tab>
           </TabList>
           <TabPanel value={0}>
@@ -177,16 +179,16 @@ function App() {
             <b>Tutorials and Creators</b>
           </TabPanel>
           <TabPanel value={11}>
-            <b>Popular Frameworks</b>
+            <FrameworksAndLibrariesSection />
           </TabPanel>
           <TabPanel value={12}>
-            <b>Common Libraries</b>
+            <UtilityPackagesSection />
           </TabPanel>
           <TabPanel value={13}>
             <b>Integrations</b>
           </TabPanel>
           <TabPanel value={14}>
-            <b>3D-Engines</b>
+            <b>Babylon.js</b>
           </TabPanel>
         </Tabs>
       </main>
