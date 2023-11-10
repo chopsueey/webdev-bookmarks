@@ -194,24 +194,14 @@ const CSS: Bookmark[] = [
     by: "beautifytools.com",
   },
   {
-    topic: "Split-screen Slideshow",
-    url: "https://codepen.io/seanfree/pen/LxPBZy",
-    by: "https://codepen.io/seanfree",
+    topic: "Modern CSS Solutions",
+    url: "https://moderncss.dev/",
+    by: "github.com/5t3ph"
   },
   {
-    topic: "Musical Particles IV",
-    url: "https://codepen.io/seanfree/pen/BapdxVE",
-    by: "https://codepen.io/seanfree",
-  },
-  {
-    topic: "CSS glowing icons",
-    url: "https://codepen.io/Krishnaa_Gupta/pen/MWoRqmr",
-    by: "https://codepen.io/Krishnaa_Gupta",
-  },
-  {
-    topic: "Candy Color Button Animation",
-    url: "https://codepen.io/yuhomyan/pen/OJMejWJ",
-    by: "https://codepen.io/yuhomyan"
+    topic: "Sass and BEM for beginners",
+    url: "https://www.youtube.com/watch?v=jfMHA8SqUL4",
+    by: "Coder Coder"
   }
 ];
 

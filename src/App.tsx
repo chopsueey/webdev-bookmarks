@@ -7,6 +7,10 @@ import HtmlSection from "./components/HtmlSection";
 import CssSection from "./components/CssSection";
 import LearningByDoingSection from "./components/LearningByDoingSection";
 import ToolsSection from "./components/ToolsSection";
+import ComputerBasicsSection from "./components/ComputerBasicsSection";
+import InspirationSection from "./components/InspirationSection";
+import GeneralResourcesSection from "./components/GeneralResourcesSection";
+import JavascriptSection from "./components/JavascriptSection";
 
 function App() {
   // maybe creating a tab with resources that cover
@@ -16,7 +20,7 @@ function App() {
   return (
     <>
       <nav className="flex justify-center p-10 md:py-24">
-        <h1 className="break-all text-center text-5xl font-bold text-white">
+        <h1 className="text-center text-5xl font-bold text-white">
           My webdev bookmarks collection
         </h1>
       </nav>
@@ -113,6 +117,12 @@ function App() {
             >
               <p>Tutorials & Creators</p>
             </Tab>
+            <Tab
+              disableIndicator
+              sx={{ flex: "none", scrollSnapAlign: "start" }}
+            >
+              <p>Popular Frameworks</p>
+            </Tab>
 
             <Tab
               disableIndicator
@@ -134,10 +144,10 @@ function App() {
             </Tab>
           </TabList>
           <TabPanel value={0}>
-            <p>General</p>
+            <GeneralResourcesSection />
           </TabPanel>
           <TabPanel value={1}>
-            <p>Computer Basics</p>
+            <ComputerBasicsSection />
           </TabPanel>
           <TabPanel value={2}>
             <HtmlSection />
@@ -149,7 +159,7 @@ function App() {
             <b>Colors and Fonts</b>
           </TabPanel>
           <TabPanel value={5}>
-            <b>Javascript</b>
+            <JavascriptSection />
           </TabPanel>
           <TabPanel value={6}>
             <b>Backend</b>
@@ -161,18 +171,21 @@ function App() {
             <LearningByDoingSection />
           </TabPanel>
           <TabPanel value={9}>
-            <b>Inspiration</b>
+            <InspirationSection />
           </TabPanel>
           <TabPanel value={10}>
             <b>Tutorials and Creators</b>
           </TabPanel>
           <TabPanel value={11}>
-            <b>Common Libraries</b>
+            <b>Popular Frameworks</b>
           </TabPanel>
           <TabPanel value={12}>
-            <b>Integrations</b>
+            <b>Common Libraries</b>
           </TabPanel>
           <TabPanel value={13}>
+            <b>Integrations</b>
+          </TabPanel>
+          <TabPanel value={14}>
             <b>3D-Engines</b>
           </TabPanel>
         </Tabs>
