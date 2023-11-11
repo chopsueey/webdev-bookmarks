@@ -47,6 +47,11 @@ const Javascript: Bookmark[] = [
     by: "mdn.com",
   },
   {
+    topic: "JavaScript Cheat Sheet",
+    url: "https://zerotomastery.io/cheatsheets/javascript-cheatsheet-the-advanced-concepts/",
+    by: "zerotomastery.io"
+  },
+  {
     topic: "24 JavaScript Projects",
     url: "https://mikkegoes.com/javascript-projects-for-beginners/",
     by: "mikkegoes.com",
@@ -208,17 +213,6 @@ const Javascript: Bookmark[] = [
     url: "https://learntypescript.dev/",
     by: "learntypescript.dev"
   },
-  {
-    topic: "Pixi.js",
-    url: "https://pixijs.com/",
-    by: "pixijs.com",
-  },
-  {
-    topic: "P5.js",
-    url: "https://p5js.org/",
-    by: "p5js.org",
-  },
-  
   {
     topic: "State of JavaScript",
     url: "https://stateofjs.com/en-US",

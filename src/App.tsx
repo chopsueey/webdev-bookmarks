@@ -13,6 +13,10 @@ import GeneralResourcesSection from "./components/GeneralResourcesSection";
 import JavascriptSection from "./components/JavascriptSection";
 import FrameworksAndLibrariesSection from "./components/Frameworks-and-Libraries";
 import UtilityPackagesSection from "./components/UtilityPackagesSection";
+import ColorsAndFontsSection from "./components/ColorsAndFontsSection";
+import BackendSection from "./components/BackendSection";
+import IntegrationsSection from "./components/IntegrationsSection";
+import TutorialsAndCreatorsSection from "./components/TutorialsAndCreatorsSection";
 
 function App() {
   // maybe creating a tab with resources that cover
@@ -138,12 +142,6 @@ function App() {
             >
               <p>Integrations</p>
             </Tab>
-            <Tab
-              disableIndicator
-              sx={{ flex: "none", scrollSnapAlign: "start" }}
-            >
-              <p>Babylon.js</p>
-            </Tab>
           </TabList>
           <TabPanel value={0}>
             <GeneralResourcesSection />
@@ -158,13 +156,13 @@ function App() {
             <CssSection />
           </TabPanel>
           <TabPanel value={4}>
-            <b>Colors and Fonts</b>
+            <ColorsAndFontsSection />
           </TabPanel>
           <TabPanel value={5}>
             <JavascriptSection />
           </TabPanel>
           <TabPanel value={6}>
-            <b>Backend</b>
+            <BackendSection />
           </TabPanel>
           <TabPanel value={7}>
             <ToolsSection />
@@ -176,7 +174,7 @@ function App() {
             <InspirationSection />
           </TabPanel>
           <TabPanel value={10}>
-            <b>Tutorials and Creators</b>
+            <TutorialsAndCreatorsSection />
           </TabPanel>
           <TabPanel value={11}>
             <FrameworksAndLibrariesSection />
@@ -185,10 +183,7 @@ function App() {
             <UtilityPackagesSection />
           </TabPanel>
           <TabPanel value={13}>
-            <b>Integrations</b>
-          </TabPanel>
-          <TabPanel value={14}>
-            <b>Babylon.js</b>
+            <IntegrationsSection />
           </TabPanel>
         </Tabs>
       </main>

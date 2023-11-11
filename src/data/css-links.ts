@@ -199,6 +199,11 @@ const CSS: Bookmark[] = [
     by: "github.com/5t3ph"
   },
   {
+    topic: "SmolCSS - CSS Snippets",
+    url: "https://smolcss.dev/",
+    by: "smolcss.dev"
+  },
+  {
     topic: "Sass and BEM for beginners",
     url: "https://www.youtube.com/watch?v=jfMHA8SqUL4",
     by: "Coder Coder"

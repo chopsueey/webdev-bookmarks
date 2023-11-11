@@ -1,15 +1,15 @@
-import { FrameworksAndLibraries } from "../data/frameworks-and-libraries-links";
+import { ColorsAndFonts } from "../data/colors-and-fonts-links";
 import "../style/index.css";
 import TopicCard from "./TopicCard";
 
-function FrameworksAndLibrariesSection() {
+function ColorsAndFontsSection() {
   return (
     <section
       id="toolsSection"
       className="flex flex-col items-center overflow-hidden text-center text-white sm:items-start"
     >
       <div className="flex w-fit flex-wrap justify-center">
-        {FrameworksAndLibraries.map((bookmark) => (
+        {ColorsAndFonts.map((bookmark) => (
           <TopicCard {...bookmark} />
         ))}
       </div>
@@ -17,4 +17,4 @@ function FrameworksAndLibrariesSection() {
   );
 }
 
-export default FrameworksAndLibrariesSection;
+export default ColorsAndFontsSection;

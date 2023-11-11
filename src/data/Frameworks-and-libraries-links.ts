@@ -16,7 +16,7 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://vitejs.dev/",
     by: "vitejs.dev",
   },
-  
+
   {
     topic: "Bun",
     url: "https://bun.sh/",
@@ -35,7 +35,7 @@ const FrameworksAndLibraries: Bookmark[] = [
   {
     topic: "React Native",
     url: "https://reactnative.dev/",
-    by: "reactnative.dev"
+    by: "reactnative.dev",
   },
   {
     topic: "Solid.js",
@@ -57,11 +57,11 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://zod.dev/",
     by: "zod.dev",
   },
-  
+
   {
     topic: "Redux",
     url: "https://redux.js.org/",
-    by: "redux.js.org"
+    by: "redux.js.org",
   },
   {
     topic: "Twillio",
@@ -73,7 +73,7 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://mui.com/",
     by: "mui.com",
   },
-  
+
   {
     topic: "Shadcn/ui",
     url: "https://ui.shadcn.com/",
@@ -109,7 +109,16 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://getmdl.io/",
     by: "getmdl.io",
   },
-  
+  {
+    topic: "Pixi.js",
+    url: "https://pixijs.com/",
+    by: "pixijs.com",
+  },
+  {
+    topic: "P5.js",
+    url: "https://p5js.org/",
+    by: "p5js.org",
+  },
   {
     topic: "Free CMS: Tina.io",
     url: "https://tina.io/",

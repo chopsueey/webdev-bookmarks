@@ -2,14 +2,34 @@ import { Bookmark } from "./definitions";
 
 const UtilityPackages: Bookmark[] = [
   {
+    topic: "Jest - testing",
+    url: "https://jestjs.io/",
+    by: "jestjs.io",
+  },
+  {
     topic: "Heroicons",
     url: "https://heroicons.com/",
     by: "heroicons.com",
   },
   {
+    topic: "Fontawesome",
+    url: "https://fontawesome.com/icons",
+    by: "fontawesome.com",
+  },
+  {
+    topic: "Npm cheatsheet",
+    url: "https://devhints.io/npm",
+    by: "devhints.io"
+  },
+  {
     topic: "Chart.js",
     url: "https://www.chartjs.org/",
     by: "chartjs.org",
+  },
+  {
+    topic: "Nivo",
+    url: "https://nivo.rocks/",
+    by: "nivo.rocks",
   },
   {
     topic: "React Transition Group",
@@ -59,18 +79,18 @@ const UtilityPackages: Bookmark[] = [
   {
     topic: "Plotly node.js Library",
     url: "https://plotly.com/nodejs/",
-    by: "plotly.com"
+    by: "plotly.com",
   },
   {
     topic: "Nodes",
     url: "https://nodes.io/",
-    by: "nodes.io"
+    by: "nodes.io",
   },
   {
     topic: "Learn Accessibility",
     url: "https://web.dev/learn/accessibility/",
-    by: "web.dev"
-  }
+    by: "web.dev",
+  },
 ];
 
 export { UtilityPackages };
