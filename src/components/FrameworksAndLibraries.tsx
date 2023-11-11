@@ -1,6 +1,6 @@
-import { FrameworksAndLibraries } from "../data/frameworks-and-libraries-links.ts";
+import { FrameworksAndLibraries } from "../data/frameworks-and-libraries-links";
 import "../style/index.css";
-import TopicCard from "./TopicCard";
+import TopicCard from "./TopicCard.tsx";
 
 function FrameworksAndLibrariesSection() {
   return (

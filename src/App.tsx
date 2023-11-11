@@ -11,7 +11,7 @@ import ComputerBasicsSection from "./components/ComputerBasicsSection";
 import InspirationSection from "./components/InspirationSection";
 import GeneralResourcesSection from "./components/GeneralResourcesSection";
 import JavascriptSection from "./components/JavascriptSection";
-import FrameworksAndLibrariesSection from "./components/Frameworks-and-Libraries";
+import FrameworksAndLibrariesSection from "./components/FrameworksAndLibraries";
 import UtilityPackagesSection from "./components/UtilityPackagesSection";
 import ColorsAndFontsSection from "./components/ColorsAndFontsSection";
 import BackendSection from "./components/BackendSection";
