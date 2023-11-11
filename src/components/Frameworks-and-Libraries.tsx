@@ -1,4 +1,4 @@
-import { FrameworksAndLibraries } from "../data/frameworks-and-libraries-links";
+import { FrameworksAndLibraries } from "../data/frameworks-and-libraries-links.ts";
 import "../style/index.css";
 import TopicCard from "./TopicCard";
 
