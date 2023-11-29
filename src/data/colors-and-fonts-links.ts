@@ -2,9 +2,19 @@ import { Bookmark } from "./definitions";
 
 const ColorsAndFonts: Bookmark[] = [
   {
+    topic: "Font Squirrel",
+    url: "https://www.fontsquirrel.com/",
+    by: "fontsquirrel.com"
+  },
+  {
     topic: "Google Fonts",
     url: "https://fonts.google.com/",
     by: "fonts.google.com",
+  },
+  {
+    topic: "Adobe Fonts",
+    url: "https://fonts.adobe.com/",
+    by: "adobe.com"
   },
   {
     topic: "Adobe Color",

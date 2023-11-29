@@ -2,10 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    background-color: #0b0d0e;
+@font-face {
+  font-family: "riffic-bold";
+  src:
+    url("./fonts/riffic-bold.ttf") format("truetype"),
+    url("./fonts/riffic-bold-webfont.woff2") format("woff2"),
+    url("./fonts/riffic-bold-webfont.woff") format("woff");
+
+  font-weight: bold;
 }
 
-.card:has(div:hover) {
-    background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
+/* https://candycode.com/ */
+:root {
+  background-color: #0b0d0e;
+  cursor: url('./candycode-com-cursor.png'), auto !important;
 }
+
+a  {
+  cursor: url('./candycode-com-cursor.png'), pointer !important;
+}
+
+button  {
+  cursor: url('./candycode-com-cursor.png'), pointer !important;
+}
+
+/* https://www.eggradients.com/gradient/emotional-speech */
+.card:has(div:hover) {
+  background-image: linear-gradient(
+    319deg,
+    #bbff99 0%,
+    #ffec99 37%,
+    #ff9999 100%
+  );
+}
+
+.heading {
+  background-image: linear-gradient(
+    319deg,
+    #bbff99 0%,
+    #ffec99 37%,
+    #ff9999 100%
+  );
+  padding: 8px;
+  background-clip: text;
+  color: transparent;
+  font-family: "riffic-bold";
+}
+
+/* Project Variables example */
+/* {
+    --color-primary: #ab79d6;
+    --color-on-primary: #351d4a;
+    --color-secondary: #d367c1;
+    --color-background: #27272c;
+    --color-on-background: #c5c5ce;
+    --color-background-alt: #1e1c22;
+    --color-background-alt-alpha: rgba(30,28,34,.75);
+    --color-inverse: #fff;
+    --color-gray: #8e8e8e;
+    --color-yellow: #dedf40;
+    --color-green: #62cb5c;
+    --color-blue: #00bbcb;
+    --color-on-blue: #004a09;
+    --gradient: var(--color-secondary) 10%,var(--color-yellow) 25%,var(--color-green) 50%,var(--color-blue) 75%,var(--color-primary) 90%;
+    --brand-font: "Kanit",serif;
+    --brand-font-weight: 800;
+    --brand-font-alt: "Baloo 2",system-ui,sans-serif;
+    --brand-font-alt-weight: normal;
+    --brand-font-alt-weight-bold: 500;
+} */

@@ -17,6 +17,11 @@ const UtilityPackages: Bookmark[] = [
     by: "fontawesome.com",
   },
   {
+    topic: "icons8",
+    url: "https://icons8.com/icons",
+    by: "icons8.com"
+  },
+  {
     topic: "Npm cheatsheet",
     url: "https://devhints.io/npm",
     by: "devhints.io"
@@ -50,6 +55,11 @@ const UtilityPackages: Bookmark[] = [
     topic: "GSAP - Animation library",
     url: "https://gsap.com/",
     by: "gsap.com",
+  },
+  {
+    topic: "framer-motion",
+    url: "https://www.framer.com/motion/",
+    by: "framer.com"
   },
   {
     topic: "Slick - Carousel Library",

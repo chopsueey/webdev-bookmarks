@@ -16,7 +16,6 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://vitejs.dev/",
     by: "vitejs.dev",
   },
-
   {
     topic: "Bun",
     url: "https://bun.sh/",
@@ -57,7 +56,6 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://zod.dev/",
     by: "zod.dev",
   },
-
   {
     topic: "Redux",
     url: "https://redux.js.org/",
@@ -73,7 +71,6 @@ const FrameworksAndLibraries: Bookmark[] = [
     url: "https://mui.com/",
     by: "mui.com",
   },
-
   {
     topic: "Shadcn/ui",
     url: "https://ui.shadcn.com/",

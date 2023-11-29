@@ -24,9 +24,9 @@ function App() {
   // w3schools.com, Kevin Powell, mdn.com,
   // web.dev, digital ocean
   return (
-    <>
+    <div className="relative min-h-screen">
       <nav className="flex justify-center p-10 md:py-24">
-        <h1 className="text-center text-5xl font-bold text-white">
+        <h1 className="heading text-center text-5xl font-bold text-white xl:text-6xl">
           My webdev bookmarks collection
         </h1>
       </nav>
@@ -187,7 +187,14 @@ function App() {
           </TabPanel>
         </Tabs>
       </main>
-    </>
+      <a
+        className="absolute bottom-0 right-0 text-xs text-white"
+        target="_blank"
+        href="https://candycode.com/"
+      >
+        <em>cursor from candycode.com</em>
+      </a>
+    </div>
   );
 }
 
